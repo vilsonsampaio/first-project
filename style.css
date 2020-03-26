@@ -1,0 +1,145 @@
+/* GLOBAL */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4D525E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#container {
+    background-color: white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    width: 1030px;
+    height: 743px;
+}
+
+div#container section#left {
+    width: 660px;
+    padding: 92px 137px 0px 68px;
+}
+
+div#container section#right {
+    width: 370px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    color: #4D525E;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26px;
+    color: #A5A6AD;
+    margin: 0 0 43px 0;
+}
+
+button {
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+
+/* LEFT */
+
+header h2 {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.15em;
+    color: #AFB3BB;
+    margin: 0 0 17px 0;
+}
+
+header h1 {
+    font-size: 46px;
+    line-height: 54px;
+    margin: 0 0 21px 0;
+}
+
+main button {
+    width: 455px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(196, 196, 196, 0.3);
+    border-radius: 5px;
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+}
+
+main button img {
+    width: 25px;
+    height: 25px;
+    padding-left: 42px;
+    padding-right: 72px;
+}
+
+main button h2 {
+    font-family: 'Roboto Black';
+    font-style: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.2em;
+    color: #585B63;
+}
+
+div#container {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    height: 98px;
+    margin-top: 61px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div#left h1 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4D525E;
+}
+
+footer div#right button {
+    width: 145px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+footer div#right button h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 8px;
+    line-height: 9px;
+    letter-spacing: 0.4em;
+    color: #A6BC7E;
+}
+
+
+/* RIGHT */
+
+div#container section#right img {
+    width: 370px;
+    height: 743px;
+    border-radius: 0 10px 10px 0;
+}
