@@ -1,2 +1,2 @@
 # pag01
-Primeira página desenvolvida sozinho teset
+Primeira página desenvolvida sozinho
