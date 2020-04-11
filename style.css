@@ -14,6 +14,7 @@ div#container {
     border-radius: 10px;
     width: 1030px;
     height: 743px;
+    position: relative;
 }
 
 div#container section#left {
@@ -49,7 +50,9 @@ button {
 
 button:hover {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.04);
+    border-color: #FFFFFF;
     cursor: pointer;
+    transition: .5s;
 }
 
 
@@ -100,10 +103,22 @@ div#container {
     display: flex;
 }
 
+#linha {
+    margin-top: 53px;
+    height: 1px;
+}
+
+hr {
+    position: absolute;
+    width: 658px;
+    left: 0px;
+    border: 1px solid rgba(196, 196, 196, 0.3);
+}
+
 footer {
     display: flex;
     height: 98px;
-    margin-top: 61px;
+    padding-top: 10px;
     margin-bottom: 0px;
     align-items: center;
     justify-content: space-between;
